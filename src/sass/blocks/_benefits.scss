@@ -1,0 +1,30 @@
+.benefits {
+    min-height: 472px;
+    padding: 70px 0 67px 0;
+    background-color: #F6F6F6;
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 270px;
+        height: 237px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0D0D0D;
+        text-align: center;
+        a {
+            color: $main-color;
+        }
+    }
+}
