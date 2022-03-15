@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+    .title {
+        font-size: 29px;
+        &_descr {
+            font-size: 17px;
+        }
+    }
+    .benefits {
+        &__item {
+            width: 226px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .button {
+        width: 133px;
+        height: 25px;
+        font-size: 11px;
+        &_main {
+            width: 256px;
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 80px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+    .title {
+        &_descr {
+            font-size: 20px;
+            margin-top: 17px;
+        }
+    }
+    .benefits {
+        &__item {
+            width: 300px;
+        }
+        &__wrapper {
+            margin-top: 50px;
+            height: 780px;
+            flex-direction: column;
+        }
+        &__descr {
+            margin-top: 5px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .button {
+        width: 125px;
+        &_main {
+            width: 205px;
+            font-size: 12px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 157px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+        
+    }
+    .promo {
+        padding-bottom: 70px;
+        min-height: 595px;
+        &__header {
+            font-size: 24px;
+            line-height: 25px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 13px;
+            line-height: 15px;
+        }
+        &__icons {
+            width: 290px;
+            align-items: center;
+        }
+        &__icon {
+            font-size: 11px;
+            width: 86px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .title {
+        font-size: 24px;
+    }
+    .xs-hidden {
+        display: none;
+    }
+}
+
