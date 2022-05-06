@@ -1,25 +1,31 @@
 @media (max-width: 1200px) {
-
+    .xl-hidden {
+        display: none;
+    }
 }
 @media (max-width: 991px) {
     .title {
         font-size: 29px;
-        &_descr {
-            font-size: 17px;
-        }
     }
     .benefits {
         &__item {
             width: 226px;
         }
+        &__subtitle {
+            font-size: 17px;
+        }
         &__descr {
             font-size: 13px;
         }
     }
+    .consultation {
+        min-height: 640px;
+        padding: 90px 0 95px 0;
+    }
 }
 @media (max-width: 767px) {
     .button {
-        width: 133px;
+        width: 100%;
         height: 25px;
         font-size: 11px;
         &_main {
@@ -27,7 +33,12 @@
             height: 50px;
             font-size: 15px;
         }
-    }
+        &_submit {
+            width: 100%;
+            height: 50px;
+            font-size: 15px;
+        }
+    }    
     .header {
         &__logo {
             width: 200px;
@@ -53,12 +64,6 @@
             font-size: 22px;
         }
     }
-    .title {
-        &_descr {
-            font-size: 20px;
-            margin-top: 17px;
-        }
-    }
     .benefits {
         &__item {
             width: 300px;
@@ -68,16 +73,33 @@
             height: 780px;
             flex-direction: column;
         }
+        &__subtitle {
+            font-size: 20px;
+            margin-top: 17px;
+        }
         &__descr {
             margin-top: 5px;
             font-size: 15px;
             line-height: 20px;
         }
     }
+    .title {
+        &_left {
+            line-height: 39px;
+            font-size: 25px;
+        }
+    }
+    .consultation {
+        min-height: 600px;
+        &__descr {
+            line-height: 20px;
+            font-size: 17px;
+            margin-top: 18px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .button {
-        width: 125px;
         &_main {
             width: 205px;
             font-size: 12px;
@@ -118,9 +140,21 @@
     }
     .title {
         font-size: 24px;
+        &_left {
+            font-size: 20px;
+            line-height: 31px;
+        }
+    }
+    
+    .consultation {
+        padding: 70px 0 85px 0;
+        min-height: 580px;
+    }
+    .feed-form {
+        width: 285px;
     }
     .xs-hidden {
         display: none;
     }
+    
 }
-

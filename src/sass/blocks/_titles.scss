@@ -4,10 +4,10 @@
     font-size: 30px;
     color: #0D0D0D;
     text-transform: uppercase;
-    &_descr {
-        margin-top: 35px;
-        font-size: 18px;
-        text-transform: unset;
-        
+    &_left {
+        color: #ffff;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: left;
     }
 }
