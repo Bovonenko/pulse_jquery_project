@@ -1,4 +1,5 @@
 .overlay {
+    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -21,6 +22,9 @@
         color: $main-color;
         font-size: 41px;
         line-height: 21px;
+        &:hover {
+            cursor: pointer;
+        }
     }
     &__subheader {
         font-weight: 700;
@@ -37,8 +41,16 @@
     &_mini {
         min-height: 140px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 
-#consultation, #order {
+#consultation, #order, #thanks {
     display: none;
 }
