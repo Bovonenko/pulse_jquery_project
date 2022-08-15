@@ -8,6 +8,13 @@
     font-size: 12px;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        opacity: 0.9;
+    }
     &_main {
         margin-top: 67px;
         width: 303px;

@@ -35,9 +35,23 @@
     }
     &__icon {
         &_animated {
-            animation: heartbeat 1.5s ease infinite;
-            &:hover {
-                animation-play-state: paused;
+            &-shoe {
+                animation: run 2s linear infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+            &-heart {
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
+            &-cup {
+                animation: cup 2s linear infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
             }
         }
     }
